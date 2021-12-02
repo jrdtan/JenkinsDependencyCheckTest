@@ -3,7 +3,7 @@ pipeline {
 	stages {
 		stage('Checkout SCM') {
 			steps {
-				git '/home/kali/Desktop/JenkinsDependencyCheckTest'
+				git '/home/ubuntu/Desktop/JenkinsDependencyCheckTest'
 			}
 		}
 
